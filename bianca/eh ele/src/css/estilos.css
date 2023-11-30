@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins'; 
+   }
+   
+   .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: fit-content;
+   }
+   
+   .imagem-fundo {
+    background-color: hsl(192, 100%, 20%);
+    position: absolute;
+    z-index: -1;
+    height: 110vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+   }
+
+   .imagem-fundo .imagem {
+    height: 112vh;
+    width: 100vw;
+   }
+
+   .imagem-fundo::after {
+    content: "";
+    height: 100vh;
+    width: 110vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 15%, rgba(0,0,0,0.7105217086834734) 50%, rgba(0,0,0,1) 85%);
+   }
+
+
+
+   .cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+   }
+
+   .cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+   }
+
+   .cabecalho nav li a:hover {
+    background-color: rgb(73, 28, 94)
+   }
+
+
+
+   .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+   }
+   
+
+
+   .texto {
+    
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(22, 222, 15);
+        background-color: rgba(42, 15, 15, 0);
+        font-style: italic;
+        font-size: 20px;
+   }
+
+   .intro {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(119, 25, 143);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+
+   }
+
+   .inte {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(12, 119, 12);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;}
+   
+   .fato {
+    text-align: center;
+    font-family: Impact, 'Poppins', 'Arial Narrow Bold', sans-serif;
+    color:rgb(12, 103, 119);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   .corzinha {
+    color: #ffffff;
+   }
+
+   .etitlo {
+    color: #ffffff;
+   }
+   
+
+
+   .brabo {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(12, 89, 119);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+
+   }
+   
+   .meu-insta {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(125, 124, 134);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   .sendo-sobre {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(101, 201, 232);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   .texto-images {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(177, 174, 209);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   .aviso {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(12, 119, 37);
+    background-color: rgba(42, 15, 15, 0);
+    font-style: italic;
+    font-size: 20px;
+   }
+
+   .motos { 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(94, 10, 84);
+    background-color: rgba(98, 12, 21, 0.065);
+    font-style: italic;
+    font-size: 20px; 
+}
