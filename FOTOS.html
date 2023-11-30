@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+    <link rel="stylesheet" href="./src/css/estilos.css">
+<TITLE> Le beginning </TITLE>
+</HEAD>
+<center>
+    <body background="./src/imagens/fundo.jpg">
+    <header class="cabecalho">
+        <nav>
+            <ul class="menu">
+
+
+<li><a href="INDEX.html"> Inicio </a></li>
+<li><a href="FOTOS.html"> Fotos </a> </li>
+<li><a href="CONTATOS.html"> Contatos </a> </li>
+<li><a href="SOBRE.html"> Sobre </a> </li>
+<li> <a href="localizacao.html"> Localização</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="texto-images"> Imagens de motos esportivas </h1>
+
+    <script>
+     var i = 0;
+     var images = []
+     var time = 2000;
+
+
+     images[0] = '1.png';
+     images[1] = '2.jpg';
+     images[2] = '3.jpg';
+     images[3] = '4.jpg';
+     images[4] = '5.jpg';
+     images[5] = '6.jpg';
+     images[6] = '7.jpg';
+
+     function changeImg() {
+        document.slide.src = images[i];
+        if (i < images.length - 1) {
+
+            i++;
+
+        } else {
+            i = 0;
+            }
+            setTimeout("changeImg()", time);
+
+     }
+
+     window.onload = changeImg;
+    </script>
+
+    <img name="slide" width="400" height="200">
+</BODY>
+</HTML>
